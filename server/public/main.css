@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+.navbar-brand {
+  color: #ffd54f;
+}
+
+/*Nav*/
+
+.navBar {
+  border: 1px solid black;
+  background-color: #fcdd7a;
+}
+
+ul {
+    list-style:none;
+}
+
+.nav-link {
+  color: black;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li:hover {
+  background: #ffd54f;
+}
+
+ul li:hover ul{
+    z-index:1;
+    display: block;
+    position:absolute;
+}
+
+.nav-two {
+  display:none;
+  margin-top: 10px;
+}
+
+ul li ul li {
+    float:none;
+    background:rgba(245, 244, 244, 0.5);
+}
+
+
+
+
+
+
+ul li:hover .nav-two {
+  display: block;
+}
+
+.nav-two li {
+  padding: 5px 0;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.footerContainer {
+  background-color: #e0e0e0;
+  color: black;
+  text-align: end;
+  padding: 10px 10px 3px 0;
+  font-size: smaller;
+}
+
+/*CodeList*/
+
+.codeListTable {
+  width: 80%;
+  border: 2px solid darkgray;
+}
+
+
+
+/*CodeFilter*/
+.filterTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*CodeDetail*/
+.row {
+  width: 80%;
+}
+
+.shopBtn {
+    height:30px;
+    width:120px;
+    color: rgb(90, 90, 90);
+    border: 4px solid rgb(90, 90, 90);
+    border-radius: 2px;
+    display: inline-block;
+    transition: all 0.2s ease 0s;
+    font-size: 80%;
+    font-weight: bold;
+    background-color: white;
+}
+
+.shopBtn:hover {
+    color:#ffd54f;
+    border-radius: 10px;
+    border-color: #ffd54f;
+    transition: all 0.2s ease 0s;
+    background-color:rgb(75, 1, 75);
+}
+
+
